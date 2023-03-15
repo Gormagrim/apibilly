@@ -1,0 +1,27 @@
+User-agent: *
+Disallow: /wp-admin
+Disallow: /wp-includes
+Disallow: /wp-content/plugins
+Disallow: /wp-content/cache
+Disallow: /comments
+Disallow: */comments
+Disallow: /*.pdf$
+Disallow: /*?*
+Disallow: /*?
+Disallow: /wp-login.php
+
+Allow: /wp-content/uploads
+
+User-agent: Googlebot
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz$
+Disallow: /*.pdf$
+
+# Autoriser Google Image
+User-agent: Googlebot-Image
+Disallow:
+Allow: /*
+
+
+Sitemap: https://france-diagnostics.fr/sitemap.xml
